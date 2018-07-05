@@ -1,0 +1,187 @@
+/*****************************************
+  h1: font-family: 'Roboto', sans-serif;
+  p: font-family: 'Galada', cursive;
+  h3: font-family: 'Indie Flower', cursive;
+  h2: font-family: 'Anton', sans-serif;
+*****************************************/
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+h3 {
+  font-family: 'Indie Flower', cursive;
+  color: #3D1FCC;
+  font-size: 2em;
+}
+
+h1 {
+  font-family: 'Galada', cursive;
+}
+
+.navspacer {
+  height: 53px;
+}
+
+nav {
+  position: fixed;
+  height: 48px;
+  background-color: #000;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.navBar {
+  margin: 0;
+  padding: 15px 0 0 0;
+}
+
+.navBar li {
+  list-style-type: none;
+  margin: 15px 10px 0 15px;
+  padding: 15px;
+  display: inline;
+}
+
+.navBar a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+
+
+/************************************
+  PAGE: hero
+************************************/
+
+
+.hero {
+  background-color: #3D1FCC;
+  padding: 30px;
+  margin: 0;
+}
+
+.hero h1,
+.hero h2 {
+  margin: auto;
+  text-align: center;
+  color: #fff;;
+  text-shadow: 0 0 1px rgba(0,0,0, .8)
+}
+
+
+/************************************
+  PAGE: About
+************************************/
+
+.imageRhett {
+  max-width: 35%;
+}
+
+#about {
+  float: right;
+  max-width: 55%;
+  margin-right: 85px;
+}
+
+
+
+/************************************
+  PAGE: Family
+************************************/
+
+#family h3 {
+  margin: auto;
+  text-align: center;
+  margin-top: 85px;
+  margin-bottom: 55px;
+}
+
+#family img {
+  max-width: 30%;
+}
+
+.imgKids {
+  float: left;
+}
+
+.familyText {
+  float: left;
+  max-width: 35%;
+  padding-left: 25px;
+}
+
+.imgParents {
+  float: right;
+}
+
+/************************************
+  PAGE: Pictures
+************************************/
+
+#photos h3 {
+  margin: auto;
+  text-align: center;
+  margin-top: 85px;
+  margin-bottom: 55px;
+}
+
+#photos img {
+  max-width: 250px;
+  margin: 0 20px;
+}
+
+.photoSlides {
+  list-style-type: none;
+}
+
+.photoSlides li {
+  float: left;
+}
+
+
+/************************************
+  PAGE: Interests
+************************************/
+
+#interests h3 {
+  margin: auto;
+  text-align: center;
+  margin-top: 85px;
+  margin-bottom: 55px;
+}
+
+#interests {
+  padding-left: 25px;
+  margin-bottom: 40px;
+}
+
+.interestsList li:hover {
+  text-decoration: underline;
+  color: #CC1817;
+  font-weight: bold;
+}
+
+
+
+/************************************
+  PAGE: Footer
+************************************/
+
+footer {
+  background-color: lightgrey;
+  padding: 30px 50px 50px 50px;
+}
